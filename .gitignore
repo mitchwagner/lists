@@ -4,3 +4,7 @@
 
 # Python
 *.pyc
+
+# Java
+*.class
+*.jar
