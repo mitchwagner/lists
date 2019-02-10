@@ -33,7 +33,7 @@ public interface List<E> {
     /**
      * Get the element at the specified index
      */
-    public void get(Long idx);
+    public E get(Long idx);
 
 
     /**
