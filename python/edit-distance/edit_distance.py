@@ -58,9 +58,3 @@ def edit_distance_help(xs, ys, table):
 
 def check_table(x, y, table):
     return table[x][y]
-
-
-def print_dist(str1, str2):                                                                                                
-    print("\"" + str1 + "\"",
-          "\"" + str2 + "\"",
-          ":", edit_distance(str1, str2))
